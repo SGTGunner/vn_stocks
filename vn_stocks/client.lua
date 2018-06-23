@@ -62,6 +62,7 @@ RegisterCommand("stocks", function(source, args, raw)
             elements = {
                 {label = 'Buy', value = 'Buy_Stock' },
                 {label = 'Sell', value = 'Sell_Stock' },
+                {label = 'Close', value = 'Close_Menu' },
                 },
             },
             function(data, menu)
